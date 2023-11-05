@@ -1,0 +1,139 @@
+.numberPageBlock{
+    margin: 0 auto;
+    position: relative;
+    min-width: 1280px;
+    max-width: 1280px;
+    min-height: 721px;
+    max-height: 721px;
+    background-image: url('../assets/img/promo-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.phoneInput{
+    border: none; /* Убираем границу */
+    background: none; /* Убираем фон */
+    outline: none; /* Убираем выделение при фокусе */
+    font-size: 16px; /* Размер шрифта (по вашему выбору) */
+    color: #333; /* Цвет текста (по вашему выбору) */
+    width: 100%; /* Занимает всю доступную ширину */
+}
+
+.phone-input::placeholder {
+    color: #999; /* Цвет плейсхолдера (по вашему выбору) */
+}
+
+.panelNumber{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(134, 211, 244, 1);
+    width: 380px;
+    height: 721px;
+}
+
+.numpadNumber{
+    height: 278px;
+    width: 278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.numpadNumber .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.numpadNumber button{
+    background: none;
+    border: 2px solid #000;
+    margin: 2px;
+    width: 88px;
+    height: 52px;
+}
+
+.numpadNumber .clearButton{
+    margin: 0;
+    padding: 0;
+    width: 184px;
+    height: 52px;
+}
+
+
+
+.submitNumber{
+    height: 52px;
+    width: 284px;
+    padding: 16px 19px 16px 19px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border: 1px solid #4E4E4E;
+    background: none;
+
+    color: #4E4E4E;
+    text-align: center;
+
+    /* Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.numberBlock{
+    height: 137px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.numberBlock h1{
+    color: #000;
+    text-align: center;
+
+    /* Header */
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.numberBlock input{
+    color: #000;
+    width: 255px;
+    /* Tel Number */
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.numberBlock p {
+    width: 255px;
+    color: #000;
+    text-align: center;
+
+    /* Sub text */
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

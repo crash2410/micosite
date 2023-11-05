@@ -1,0 +1,23 @@
+.hidden-controls .video-react-control-bar {
+    display: none;
+}
+/* Video Container */
+.video-container {
+    position: relative;
+}
+
+/* Video Overlay */
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Непрозрачный фон */
+    pointer-events: none; /* Этот слой не будет реагировать на события клика */
+}
+
+/* Видео с возможностью взаимодействия */
+.video-react .video-react-player {
+    pointer-events: auto;
+}

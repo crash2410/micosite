@@ -1,0 +1,8 @@
+.homeBlockVideo{
+    margin: 0 auto;
+    min-width: 1280px;
+    max-width: 1280px;
+    min-height: 721px;
+    max-height: 721px;
+    position: relative;
+}

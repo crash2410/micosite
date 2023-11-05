@@ -1,0 +1,56 @@
+.bannerBlock{
+    position: absolute;
+    right: 0;
+    bottom: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 251px;
+    height: 357px;
+    background: #86D3F4;;
+    z-index: 5;
+}
+
+.bannerBlock h1{
+    padding: 0;
+    margin: 0 auto;
+    width: 231px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.bannerBlock img{
+    display: block;
+    width: 126px;
+    height: 126px;
+}
+
+.bannerBlock p{
+    color: #000;
+    width: 131px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.button{
+    display: flex;
+    width: 156px;
+    height: 52px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #000;
+    color: #86D3F4;
+}
